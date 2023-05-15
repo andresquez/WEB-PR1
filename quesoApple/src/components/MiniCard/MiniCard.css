@@ -1,19 +1,16 @@
-.Container {
-    display: flex;
-    justify-content: center;
+.ContainerMC {
     position: relative;
-    height: 700px;
-    width: 100vw;
-    overflow: hidden; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+    height: 100%; /* Adjust the height as needed */
+    width: 100%; /* Adjust the width as needed */
+  }
   
-.Container img {
+.ContainerMC img {
+display: block;
 max-height: 100%;
 max-width: 100%;
 object-fit: contain;
-scale: 2;
 margin: 0 auto; 
+scale: 1;
 }
 
 .prodName{
@@ -45,8 +42,12 @@ left: 50%;
 transform: translateX(-50%);
 text-align: center;
 color: white;
-font-size: 1.8em;
+font-size: 1.2em;
 font-weight: 350;
+}
+
+.options {
+margin-top: 15px;
 }
 
 .learnMore {
@@ -72,5 +73,3 @@ font-size: 1.2em;
 font-weight: 500; 
 cursor: pointer;
 }
-
-
