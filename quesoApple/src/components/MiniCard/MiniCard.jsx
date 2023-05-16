@@ -5,14 +5,16 @@ import PropTypes from 'prop-types'
 function MiniCard({
   image, title, text, colorClass,
 }) {
+  const textColorClass = colorClass === 'black' ? 'black' : 'white'
+
   return (
     <div className="ContainerMC">
       <img src={image} alt="MiniCard" />
-      <h1 className={`prodName ${colorClass}`}>{title}</h1>
-      <h2 className={`prodSub ${colorClass}`}>{text}</h2>
-      <div className="options">
-        <h3 className="learnMore">Learn more &gt;</h3>
-        <h3 className="buy">Buy &gt;</h3>
+      <h1 className={`prodNameMC ${textColorClass}`}>{title}</h1>
+      <h2 className={`prodSubMC ${textColorClass}`}>{text}</h2>
+      <div className="optionsMC">
+        <a href="https://www.example.com" className="learnMoreMC">Learn more &gt;</a>
+        <a href="https://www.example.com" className="buyMC">Buy &gt;</a>
       </div>
     </div>
   )

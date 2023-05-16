@@ -22,21 +22,17 @@ top: 10%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
-color: white;
 font-size: 3.5em;
 font-weight: bold;
 }
 
-/* .prodName .black{
-position: absolute;
-top: 10%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-color: black;
-font-size: 3.5em;
-font-weight: bold;
-} */
+.white{
+    color: black;
+}
+
+h1 .prodName .black{
+    color: black;
+}
 
 .prodSub{
 position: absolute;
@@ -44,7 +40,7 @@ top: 17%;
 left: 50%;
 transform: translateX(-50%);
 text-align: center;
-color: white;
+/* color: white; */
 font-size: 1.8em;
 font-weight: 350;
 }

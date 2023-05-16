@@ -13,7 +13,7 @@ margin: 0 auto;
 scale: 1;
 }
 
-.prodName{
+.prodNameMC {
 position: absolute;
 top: 10%;
 left: 50%;
@@ -24,7 +24,7 @@ font-size: 3.5em;
 font-weight: bold;
 }
 
-/* .prodName .black{
+.prodNameMC{
 position: absolute;
 top: 10%;
 left: 50%;
@@ -33,9 +33,9 @@ text-align: center;
 color: black;
 font-size: 3.5em;
 font-weight: bold;
-} */
+}
 
-.prodSub{
+.prodSubMC {
 position: absolute;
 top: 17%;
 left: 50%;
@@ -46,11 +46,21 @@ font-size: 1.2em;
 font-weight: 350;
 }
 
-.options {
+.black {
+color: white;
+
+}
+
+.white {
+color: black;
+}
+  
+
+.optionsMC {
 margin-top: 15px;
 }
 
-.learnMore {
+.learnMoreMC {
 position: absolute;
 top: 25%;
 left: 50%;
@@ -62,7 +72,7 @@ font-weight: 500;
 cursor: pointer;
 }
 
-.buy {
+.buyMC {
 position: absolute;
 top: 25%;
 left: 50%;
@@ -72,4 +82,8 @@ color: rgb(76,149,247);
 font-size: 1.2em;
 font-weight: 500; 
 cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
