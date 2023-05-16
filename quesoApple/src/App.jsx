@@ -38,6 +38,10 @@ function App() {
           />
         ))}
       </div>
+      <div className="Carrousel">
+        <img src="https://imgur.com/ZvgdDO8.png" alt="Carrousel" />
+      </div>
+      
 
     </div>
   )

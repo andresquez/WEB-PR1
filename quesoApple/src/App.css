@@ -14,7 +14,6 @@ height: 100%;
 width: 100%;
 display: flex;
 flex-direction: column;
-/* max-height: calc(100vh - 100px); */
 background-color: white;
 overflow-y: auto;
 overflow-x: hidden;
@@ -22,7 +21,7 @@ overflow-x: hidden;
 
 .Deal {
   display: flex;
-  height: 50px;
+  height: 100px;
   width: 100vw;
   background-color: white;
   color: black;
@@ -53,4 +52,12 @@ overflow-x: hidden;
   grid-gap: 0.5rem;
   align-items: center;
   justify-items: center;
+}
+
+.Carrousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
